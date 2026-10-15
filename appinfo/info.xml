@@ -5,7 +5,7 @@
     <summary>Generate previews for comic archives</summary>
     <description>Preview provider for CBZ and CBR comic archives.</description>
     <version>0.1.0</version>
-    <licence>gpl</licence>
+    <licence>GPL-3.0-or-later</licence>
     <author>thenamelessthing</author>
     <namespace>Comicpreviews</namespace>
     <bootstrap>OCA\Comicpreviews\AppInfo\Application</bootstrap>
