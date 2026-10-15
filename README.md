@@ -62,4 +62,4 @@ Issues and pull requests are welcome. Please include your Nextcloud version, PHP
 
 ## License
 
-License information will be added before the first release.
+This project is licensed under the GNU General Public License v3.0 or (at your option) any later version. See [LICENSE](LICENSE) for the full text.
