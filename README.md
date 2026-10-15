@@ -56,6 +56,16 @@ Replace the username and file path with a path valid for your Nextcloud installa
 
 Only install this app from a source you trust. CBR preview generation invokes the external `unrar` utility, and archives may be untrusted input. Keep Nextcloud, PHP, and system packages up to date.
 
+## Development note
+
+This project was vibe-coded with the assistance of AI tools. The code has been tested against a personal library of 287 comic archives (285 CBR and 2 CBZ), but broader testing and community review are welcome.
+
+## Experimental status and security
+
+This project is experimental and has **not undergone an independent security audit**. Testing on one personal library does not guarantee compatibility, reliability, or security with all archives and environments.
+
+CBR preview generation invokes the external `unrar` utility and processes archive contents. Use caution with untrusted files, keep dependencies up to date, and review the code before deploying it in environments where security is critical.
+
 ## Contributing
 
 Issues and pull requests are welcome. Please include your Nextcloud version, PHP version, archive format (CBZ or CBR), and relevant logs when reporting a problem. Do not attach copyrighted comic archives.
