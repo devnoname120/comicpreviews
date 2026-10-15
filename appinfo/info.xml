@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>comicpreviews</id>
+    <name>Comic Previews</name>
+    <summary>Generate previews for comic archives</summary>
+    <description>Preview provider for CBZ and CBR comic archives.</description>
+    <version>0.1.0</version>
+    <licence>gpl</licence>
+    <author>thenamelessthing</author>
+    <namespace>Comicpreviews</namespace>
+    <bootstrap>OCA\Comicpreviews\AppInfo\Application</bootstrap>
+    <category>multimedia</category>
+    <dependencies>
+        <nextcloud min-version="34" />
+    </dependencies>
+</info>
